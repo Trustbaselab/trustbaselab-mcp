@@ -1,5 +1,8 @@
 # Trustbase Lab — Industry Data MCP Server
 
+[![mcpindex](https://mcpindex.ai/api/v1/badge/com-trustbaselab-rcb-data)](https://mcpindex.ai/server/com-trustbaselab-rcb-data)
+
+
 Trusted data infrastructure for the AI era: **sourced, traceable industry records with stable IDs**, exposed over the Model Context Protocol.
 
 > **Scope of this repository.** This repo is a **description / directory-listing anchor** for the MCP server. The server itself is **hosted and closed-source** — no source code is published here. Everything below points to live, public endpoints you can verify right now.
