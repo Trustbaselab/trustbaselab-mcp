@@ -23,6 +23,7 @@ Each published record carries:
 | Endpoint | `https://trustbaselab.com/mcp` |
 | Transport | `streamable-http` |
 | Protocol version | `2025-06-18` |
+| Server version | `1.15.1` |
 | Server card | `https://trustbaselab.com/.well-known/mcp/server-card.json` |
 | Agent card | `https://trustbaselab.com/.well-known/agent-card.json` |
 | Endpoint declaration | `https://trustbaselab.com/.well-known/mcp.json` |
@@ -32,7 +33,7 @@ The server exposes **read-only tools** only — no write, no side effects.
 
 ## Domains covered
 
-Six industry domains, each with its own record set, source citations and stable ID space:
+**Multiple industry domains**, each with its own record set, source citations and stable ID space:
 
 1. **Chemical recycling (rCB)** — recovered carbon black grades, producers, trade flows, price benchmarks
 2. **Carbon & CBAM** — CBAM obligations and timeline, carbon markets, accounting standards
@@ -40,6 +41,8 @@ Six industry domains, each with its own record set, source citations and stable 
 4. **Telecom & space** — 3GPP/ITU standards evolution, spectrum allocation, constellation status
 5. **Health & nutrition** — dietary limits and guidelines, physical-activity guidance, official clarifications
 6. **Compute & energy** — compute facilities, PUE benchmarks, power-consumption statistics, green-power deals
+
+<sub>Six domains are live today and expanding. Domain count is deliberately not a commitment — new domains are added only when their record sets meet the same sourcing bar.</sub>
 
 ## How records are made citable
 
@@ -58,8 +61,5 @@ Every fact set is also published as a human-readable, numbered citation list:
 ## Contact
 
 - Website: https://trustbaselab.com
-- Security / general: business@trustbaselab.com
-- Security policy: https://trustbaselab.com/.well-known/security.txt
-- Website: https://trustbaselab.com
-- Security / general: business@trustbaselab.com
+- General: business@trustbaselab.com
 - Security policy: https://trustbaselab.com/.well-known/security.txt
